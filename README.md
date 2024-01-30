@@ -2,4 +2,4 @@
 
 ![Tampilan Desktop](src/img/preview1.png)
 
-[Design By @triciadesigns in Comunity Figma ](https://www.figma.com/@triciadesigns)
+[Design By @triciadesigns](https://www.figma.com/@triciadesigns)
