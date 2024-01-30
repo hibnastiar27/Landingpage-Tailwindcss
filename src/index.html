@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="output.css" />
+		<script
+			src="https://kit.fontawesome.com/d7f673dfd5.js"
+			crossorigin="anonymous"></script>
+	</head>
+	<body class="overflow-x-hidden">
+		<!-- Navbar -->
+		<header class="z-50 md:px-20 bg-white sticky top-0 w-full">
+			<nav class="flex justify-between py-3 px-5 md:px-0 items-center">
+				<div class="md:flex md:items-center md:gap-8">
+					<svg
+						width="40"
+						height="40"
+						viewBox="0 0 40 40"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg">
+						<path
+							fill-rule="evenodd"
+							clip-rule="evenodd"
+							d="M10.9095 7.32128C11.272 6.69151 11.7764 6.15599 12.382 5.75798L16.6999 3.28372C17.8452 2.61823 18.7868 3.16423 18.7868 4.49523V18.4878C18.7868 19.8189 17.8452 20.3649 16.6999 19.6994L12.382 17.1398C11.7764 16.7418 11.272 16.2063 10.9095 15.5765C10.5471 14.9467 10.3367 14.2401 10.2952 13.5136V9.38412C10.3367 8.65761 10.5471 7.95105 10.9095 7.32128ZM9.91003 17.557C10.6126 17.557 11.3053 17.7207 11.9322 18.0347L16.1331 20.4171C17.2452 21.0535 17.2452 22.0897 16.1331 22.7261L4.43649 29.4165C3.32452 30.0529 2.41016 29.5307 2.41016 28.2579V23.4604C2.45043 22.7657 2.65477 22.09 3.00669 21.4878C3.35867 20.8855 3.84839 20.3735 4.43649 19.9929L7.88783 18.0347C8.51475 17.7207 9.20748 17.557 9.91003 17.557ZM27.6177 5.75798C28.2234 6.15599 28.7277 6.69151 29.0901 7.32128C29.4526 7.95105 29.6631 8.65761 29.7045 9.38412V13.5136C29.6631 14.2401 29.4526 14.9467 29.0901 15.5765C28.7277 16.2063 28.2234 16.7418 27.6177 17.1398L23.2913 19.6994C22.1461 20.3649 21.2129 19.8189 21.2129 18.4878V4.49523C21.2129 3.16423 22.1461 2.61823 23.2913 3.28372L27.6177 5.75798ZM29.7814 17.557C29.0491 17.557 28.3272 17.7207 27.6738 18.0347L23.2953 20.4171C22.1363 21.0535 22.1363 22.0897 23.2953 22.7261L35.4862 29.4165C36.6452 30.0529 37.5895 29.5307 37.5895 28.2579V23.4604C37.5492 22.7663 37.3378 22.0908 36.9725 21.4885C36.6072 20.8862 36.0981 20.3739 35.4862 19.9929L31.889 18.0347C31.2356 17.7207 30.5136 17.557 29.7814 17.557ZM9.87411 35.8827C10.5014 36.1963 11.1945 36.3597 11.8974 36.3597C12.6004 36.3597 13.2935 36.1963 13.9208 35.8827L17.3741 33.919C17.9617 33.5367 18.4503 33.0236 18.801 32.4208C19.1517 31.818 19.3545 31.1423 19.3933 30.448V25.6569C19.3933 24.3858 18.4867 23.8643 17.3741 24.4999L5.67078 31.1813C4.55815 31.8168 4.55815 32.8516 5.67078 33.4872L9.87411 35.8827ZM20.6178 32.4193C20.2526 31.8184 20.041 31.1445 19.9999 30.4519V25.6559C19.9999 24.3857 20.9443 23.8646 22.1033 24.4997L34.2942 31.1766C35.4531 31.8117 35.4531 32.8459 34.2942 33.481L29.9157 35.883C29.2623 36.1965 28.5403 36.3597 27.8081 36.3597C27.0759 36.3597 26.3539 36.1965 25.7005 35.883L22.1033 33.9125C21.4919 33.5317 20.9832 33.0204 20.6178 32.4193Z"
+							fill="#36485C" />
+					</svg>
+					<!-- Menu -->
+					<div id="menu" class="hidden md:block">
+						<div
+							class="z-10 bg-white md:bg-transparent md:flex-row md:static md:py-0 md:translate-y-0 md:shadow-none absolute flex flex-col shadow-lg rounded-ee-2xl rounded-es-2xl w-full left-0 translate-y-3 gap-2 py-5 text-center">
+							<a href="" class="hover:text-blue-500 py-3 md:px-3">Features</a>
+							<a href="" class="hover:text-blue-500 py-3 md:px-3">Pricing</a>
+							<a href="" class="hover:text-blue-500 py-3 md:px-3">Enterprise</a>
+							<a href="" class="hover:text-blue-500 py-3 md:px-3">Careers</a>
+						</div>
+					</div>
+				</div>
+				<div class="flex gap-4 items-center">
+					<a href="" class="hidden md:block">Open an Account</a>
+					<div class="flex gap-2 items-center">
+						<svg
+							width="26"
+							height="27"
+							viewBox="0 0 26 27"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<g clip-path="url(#clip0_1_534)">
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M22.3624 22.5192C24.6148 20.1816 26 17.0025 26 13.5C26 6.3203 20.1797 0.5 13 0.5C5.8203 0.5 0 6.3203 0 13.5C0 17.0025 1.38516 20.1816 3.63756 22.5192C4.81846 18.4635 8.56313 15.4998 13 15.4998C17.4369 15.4998 21.1815 18.4635 22.3624 22.5192ZM13 13.5C15.3932 13.5 17.3333 11.5599 17.3333 9.16667C17.3333 6.77343 15.3932 4.83333 13 4.83333C10.6068 4.83333 8.66667 6.77343 8.66667 9.16667C8.66667 11.5599 10.6068 13.5 13 13.5Z"
+									fill="#36485C" />
+								<circle
+									cx="13"
+									cy="13.5"
+									r="12.25"
+									stroke="#36485C"
+									stroke-width="1.5" />
+							</g>
+							<defs>
+								<clipPath id="clip0_1_534">
+									<rect
+										width="26"
+										height="26"
+										fill="white"
+										transform="translate(0 0.5)" />
+								</clipPath>
+							</defs>
+						</svg>
+						<a href="" class="hidden md:block">Sign In</a>
+						<button
+							type="button"
+							id="burger"
+							class="flex flex-col gap-1 md:hidden">
+							<span
+								class="burger-line w-[30px] h-[2px] my-[2px] bg-black transition-all duration-300"></span>
+							<span
+								class="burger-line w-[30px] h-[2px] my-[2px] bg-black transition-all duration-300"></span>
+							<span
+								class="burger-line w-[30px] h-[2px] my-[2px] bg-black transition-all duration-300"></span>
+						</button>
+					</div>
+				</div>
+			</nav>
+		</header>
+		<!-- End Navbar -->
+
+		<!-- Main -->
+		<section
+			id="main"
+			class="relative pt-36 pb-20 h-full flex flex-col items-center justify-center md:justify-start">
+			<div class="md:static md:justify-start px-5 flex flex-col gap-5">
+				<div class="flex flex-col gap-5 items-center text-center">
+					<h1
+						class="text-[32px] sm:text-[45px] md:text-[64px] sm:font-bold font-medium md:leading-[72px]">
+						Start monitoring your <br />
+						website like a pro
+					</h1>
+					<p class="text-[#36485C] md:text-[18px]">
+						Get a bird's eye view with our customizable dashboard. Stay on top
+						of things! Revamp your work <br class="hidden md:block" />
+						process with our game-changing feature. Boost productivity and
+						efficiency!
+					</p>
+					<div class="flex gap-3 items-center">
+						<button class="bg-[#4328EB] text-white px-8 py-3 rounded-md">
+							Try for free
+						</button>
+						<a
+							href=""
+							class="text-[#4328EB] flex gap-2 group items-center px-2">
+							View Pricing
+							<span
+								class="group-hover:translate-x-3 transition-all duration-300 group-hover:transition-all group-hover:duration-300">
+								<svg
+									width="27"
+									height="26"
+									viewBox="0 0 27 26"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect
+										x="0.5"
+										width="26"
+										height="26"
+										rx="13"
+										fill="#D5CFFA"
+										fill-opacity="0.5" />
+									<path
+										d="M9.4165 13H17.5832"
+										stroke="#4328EB"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+									<path
+										d="M13.5 8.91669L17.5833 13L13.5 17.0834"
+										stroke="#4328EB"
+										stroke-width="1.5"
+										stroke-linecap="round"
+										stroke-linejoin="round" />
+								</svg> </span
+						></a>
+					</div>
+				</div>
+				<div class="m-auto">
+					<img class="scale-90" src="img/head.png" alt="" />
+					<div
+						class="mt-8 md:mt-0 md:flex items-center md:gap-5 justify-between">
+						<p class="text-center text-white text-base mb-5 md:mb-0">
+							Trusted by these companies
+						</p>
+						<div
+							class="flex flex-wrap gap-4 w-full md:w-4/5 justify-center md:justify-around">
+							<img src="img/Google.png" alt="" />
+							<img src="img/Slack.png" alt="" />
+							<img src="img/Trustpilot.png" alt="" />
+							<img src="img/CNN logo.png" alt="" />
+							<img src="img/Clutch.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<img
+				class="absolute -z-10 w-full left-0 bottom-0 h-2/3 md:h-3/4"
+				src="img/gradient1.png"
+				alt="gradient" />
+		</section>
+		<!-- End Main -->
+
+		<!-- Sales -->
+		<section class="max-w-7xl px-5 pt-24 m-auto">
+			<div class="md:flex gap-10 items-center">
+				<div class="flex flex-col gap-5">
+					<p class="text-[#0085FF] text-lg font-semibold">Sales Monitoring</p>
+					<h1 class="text-2xl font-semibold md:text-5xl md:leading-[45px]">
+						Simplify your sales monitoring
+					</h1>
+					<img class="md:hidden" src="img/monitoring.png" alt="" />
+					<p>
+						Stay on top of things and revamp your work process with our
+						game-changing feature. Get a bird's eye view with our customizable
+						dashboard.
+					</p>
+					<div class="flex flex-col gap-3">
+						<span class="flex gap-3">
+							<img src="img/check.svg" alt="" />
+							<p>Lorem ipsum dolor sit amet</p>
+						</span>
+						<span class="flex gap-3">
+							<img src="img/check.svg" alt="" />
+							<p>Consectetur adipiscing elit</p>
+						</span>
+						<span class="flex gap-3">
+							<img src="img/check.svg" alt="" />
+							<p>Sed do eiusmod tempor incididunt ut labore</p>
+						</span>
+					</div>
+					<a
+						class="text-[#0085FF] font-medium flex gap-3 items-center group"
+						href="#"
+						>Learn More
+						<img
+							class="group-hover:translate-x-2 transition-all duration-300"
+							src="img/arrow.svg"
+							alt="arrow"
+					/></a>
+				</div>
+				<img class="hidden md:block w-1/2" src="img/monitoring.png" alt="" />
+			</div>
+		</section>
+		<!-- end Sales -->
+
+		<!-- Customer -->
+		<section class="max-w-7xl px-5 pt-24 m-auto">
+			<div class="md:flex gap-10 items-center md:flex-row-reverse">
+				<div class="flex flex-col gap-5">
+					<p class="text-[#00A424] text-lg font-semibold">Customer Support</p>
+					<h1 class="text-2xl font-semibold md:text-5xl md:leading-[45px]">
+						Get in touch with your customers
+					</h1>
+					<img class="md:hidden" src="img/customer.png" alt="" />
+					<p>
+						Stay on top of things and revamp your work process with our
+						game-changing feature. Get a bird's eye view with our customizable
+						dashboard.
+					</p>
+					<div class="flex flex-col gap-3">
+						<span class="flex gap-3">
+							<img src="img/check.svg" alt="" />
+							<p>Lorem ipsum dolor sit amet</p>
+						</span>
+						<span class="flex gap-3">
+							<img src="img/check.svg" alt="" />
+							<p>Consectetur adipiscing elit</p>
+						</span>
+						<span class="flex gap-3">
+							<img src="img/check.svg" alt="" />
+							<p>Sed do eiusmod tempor incididunt ut labore</p>
+						</span>
+					</div>
+					<a
+						class="text-[#00A424] font-medium flex gap-3 items-center group"
+						href="#"
+						>Learn More
+						<img
+							class="group-hover:translate-x-2 transition-all duration-300"
+							src="img/arrow-green.svg"
+							alt="arrow"
+					/></a>
+				</div>
+				<img class="hidden md:block w-1/2" src="img/customer.png" alt="" />
+			</div>
+		</section>
+		<!-- end Customer -->
+
+		<!-- Growth -->
+		<section class="max-w-7xl px-5 py-24 m-auto">
+			<div class="md:flex gap-10 items-center">
+				<div class="flex flex-col gap-5">
+					<p class="text-[#EB2891] text-lg font-semibold">Growth Monitoring</p>
+					<h1 class="text-2xl font-semibold md:text-5xl md:leading-[45px]">
+						Monitor your site’s new subscribers
+					</h1>
+					<img class="md:hidden" src="img/red-monitoring.png" alt="" />
+					<p class="text-[#36485C]">
+						Stay on top of things and revamp your work process with our
+						game-changing feature. Get a bird's eye view with our customizable
+						dashboard.
+					</p>
+					<div class="flex gap-3">
+						<span class="flex flex-col gap-2 basis-1/2">
+							<p class="text-xl font-semibold">100+</p>
+							<p class="text-[#36485C]">Lorem ipsum dolor sit</p>
+						</span>
+						<span class="flex flex-col gap-2 basis-1/2">
+							<p class="text-xl font-semibold">800+</p>
+							<p class="text-[#36485C]">Conse adipiscing elit</p>
+						</span>
+					</div>
+					<a
+						class="text-[#EB2891] font-medium flex gap-3 items-center group"
+						href="#"
+						>Learn More
+						<img
+							class="group-hover:translate-x-2 transition-all duration-300"
+							src="img/arrow-red.svg"
+							alt="arrow"
+					/></a>
+				</div>
+				<img
+					class="hidden md:block w-1/2"
+					src="img/red-monitoring.png"
+					alt="" />
+			</div>
+		</section>
+		<!-- End Growth -->
+
+		<!-- Testimonials -->
+		<section class="bg-[#F4F8FA] py-20">
+			<div class="max-w-7xl px-5 m-auto">
+				<div class="text-center">
+					<h1
+						class="text-2xl mb-4 sm:text-2xl font-semibold md:text-5xl md:leading-[45px]">
+						Testimonials
+					</h1>
+					<p class="text-[#36485C]">
+						Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+						fugit, <br class="hidden md:block" />
+						sed quia consequuntur ma. Ut enim ad minim veniam, quis nostrud
+						exercitation.
+					</p>
+				</div>
+			</div>
+			<div class="mt-6">
+				<div class="scroller m-auto group pb-6" data-speed="fast">
+					<div class="tag-list scroller__inner group-hover:paused">
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp1.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Lucy Tarr
+										</h1>
+										<p class="text-[#5F7896]">CEO of AB.co</p>
+									</div>
+								</div>
+								<img src="img/Google.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+								Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+								aut fugit.
+							</div>
+						</div>
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp2.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Grant Styles
+										</h1>
+										<p class="text-[#5F7896] text-base">
+											CEO of Biffco Enterprises Ltd.
+										</p>
+									</div>
+								</div>
+								<img src="img/App Store.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet?
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+							</div>
+						</div>
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp3.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Lucy Tarr
+										</h1>
+										<p class="text-[#5F7896]">CEO of AB.co</p>
+									</div>
+								</div>
+								<img src="img/X.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+								Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+								aut fugit.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="scroller m-auto group pb-6"
+					data-speed="fast"
+					data-direction="right">
+					<div class="tag-list scroller__inner group-hover:paused">
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp1.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Lucy Tarr
+										</h1>
+										<p class="text-[#5F7896]">CEO of AB.co</p>
+									</div>
+								</div>
+								<img src="img/Google.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+								Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+								aut fugit.
+							</div>
+						</div>
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp2.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Grant Styles
+										</h1>
+										<p class="text-[#5F7896] text-base">
+											CEO of Biffco Enterprises Ltd.
+										</p>
+									</div>
+								</div>
+								<img src="img/App Store.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet?
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+							</div>
+						</div>
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp3.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Lucy Tarr
+										</h1>
+										<p class="text-[#5F7896]">CEO of AB.co</p>
+									</div>
+								</div>
+								<img src="img/X.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+								Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+								aut fugit.
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="scroller m-auto group pb-6 hidden md:block"
+					data-speed="fast">
+					<div class="tag-list scroller__inner group-hover:paused">
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp1.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Lucy Tarr
+										</h1>
+										<p class="text-[#5F7896]">CEO of AB.co</p>
+									</div>
+								</div>
+								<img src="img/Google.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+								Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+								aut fugit.
+							</div>
+						</div>
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp2.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Grant Styles
+										</h1>
+										<p class="text-[#5F7896] text-base">
+											CEO of Biffco Enterprises Ltd.
+										</p>
+									</div>
+								</div>
+								<img src="img/App Store.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet?
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam.
+							</div>
+						</div>
+						<div
+							class="card md:w-[519px] md:h-[214px] w-[350px] h-auto p-6 bg-white rounded-2xl shadow-lg shadow-slate-300">
+							<div class="card_header flex w-full mb-4">
+								<div class="w-full flex items-center gap-4">
+									<img src="img/pp3.svg" alt="" />
+									<div class="header_text">
+										<h1 class="font-semibold md:text-xl text-base">
+											Lucy Tarr
+										</h1>
+										<p class="text-[#5F7896]">CEO of AB.co</p>
+									</div>
+								</div>
+								<img src="img/X.svg" alt="" />
+							</div>
+							<div
+								class="card_body text-[#36485C] md:text-2xl text-base leading-7 md:leading-10">
+								Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+								Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+								aut fugit.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Testimonials -->
+
+		<!-- FAQ -->
+		<section>
+			<div class="max-w-7xl px-5 m-auto py-20 lg:px-0 md:flex md:gap-10">
+				<div class="flex flex-col gap-4 md:basis-1/2">
+					<p class="text-[#EB2891] font-medium">Frequently Asked Questions</p>
+					<h1 class="text-2xl font-semibold">
+						Let’s clarify some of your questions
+					</h1>
+					<p class="text-[#36485C]">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore
+					</p>
+				</div>
+				<div class="flex flex-col gap-5 py-6 md:py-0 md:basis-full">
+					<div class="accordion p-4 bg-[#E3F1FF] rounded-lg">
+						<div
+							id="accordion"
+							class="header flex font-semibold items-center pb-2 justify-between">
+							Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+							<button class="p-2">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+						<div class="body text-[#36485C] hidden">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Neque porro quisquam est,
+							qui dolorem ipsum quia dolor sit amet.
+						</div>
+					</div>
+					<div class="accordion p-4 bg-[#E3F1FF] rounded-lg">
+						<div
+							id="accordion"
+							class="header flex font-semibold items-center pb-2 justify-between">
+							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+							aut fugit?
+							<button class="p-2">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+						<div class="body text-[#36485C] hidden">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Neque porro quisquam est,
+							qui dolorem ipsum quia dolor sit amet.
+						</div>
+					</div>
+					<div class="accordion p-4 bg-[#E3F1FF] rounded-lg">
+						<div
+							id="accordion"
+							class="header flex font-semibold items-center pb-2 justify-between">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+							<button class="p-2">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+						<div class="body text-[#36485C] hidden">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Neque porro quisquam est,
+							qui dolorem ipsum quia dolor sit amet.
+						</div>
+					</div>
+					<div class="accordion p-4 bg-[#E3F1FF] rounded-lg">
+						<div
+							id="accordion"
+							class="header flex font-semibold items-center pb-2 justify-between">
+							Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet?
+							<button class="p-2">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+						<div class="body text-[#36485C] hidden">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Neque porro quisquam est,
+							qui dolorem ipsum quia dolor sit amet.
+						</div>
+					</div>
+					<div class="accordion p-4 bg-[#E3F1FF] rounded-lg">
+						<div
+							id="accordion"
+							class="header flex font-semibold items-center pb-2 justify-between">
+							Ut enim ad minima veniam, quis nostrum exercitationem ullam?
+							<button class="p-2">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+						<div class="body text-[#36485C] hidden">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Neque porro quisquam est,
+							qui dolorem ipsum quia dolor sit amet.
+						</div>
+					</div>
+					<div class="accordion p-4 bg-[#E3F1FF] rounded-lg">
+						<div
+							id="accordion"
+							class="header flex font-semibold items-center pb-2 justify-between">
+							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+							aut fugit?
+							<button class="p-2">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+						<div class="body text-[#36485C] hidden">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Neque porro quisquam est,
+							qui dolorem ipsum quia dolor sit amet.
+						</div>
+					</div>
+					<div class="accordion p-4 bg-[#E3F1FF] rounded-lg">
+						<div
+							id="accordion"
+							class="header flex font-semibold items-center pb-2 justify-between">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit?
+							<button class="p-2">
+								<i class="fa-solid fa-plus"></i>
+							</button>
+						</div>
+						<div class="body text-[#36485C] hidden">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore. Nemo enim ipsam voluptatem
+							quia voluptas sit aspernatur aut odit aut fugit. Lorem ipsum dolor
+							sit amet, consectetur adipiscing elit. Neque porro quisquam est,
+							qui dolorem ipsum quia dolor sit amet.
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End FAQ -->
+
+		<!-- Plan -->
+		<section class="max-w-7xl pb-20 px-5 m-auto">
+			<div class="flex flex-col gap-4 items-center w-full mb-10">
+				<h1 class="text-2xl font-semibold">Flexible plans for you</h1>
+				<p class="text-[#36485C]">No hidden fees!</p>
+			</div>
+			<div class="flex flex-wrap gap-6 justify-center">
+				<div
+					class="card-item flex flex-col gap-4 p-6 bg-[#F5F4FF] rounded-lg w-full md:max-w-xl lg:max-w-sm justify-between">
+					<div class="flex flex-col gap-4">
+						<div class="title">
+							<p class="text-[#4328EB] font-medium text-lg">Free Trial</p>
+							<p class="text-[#36485C]">Perfect for testing the waters</p>
+						</div>
+						<div class="price text-3xl">
+							<p>$0<span class="text-[#5F7896]">/mo</span></p>
+						</div>
+						<div class="flex flex-col gap-2">
+							<span class="flex gap-2 items-center">
+								<i class="fa-solid fa-check"></i>
+								Lorem ipsum dolor sit amet
+							</span>
+							<span class="flex gap-2 items-center">
+								<i class="fa-solid fa-check"></i>
+								Lorem ipsum dolor sit amet
+							</span>
+							<span class="flex gap-2 items-center">
+								<i class="fa-solid fa-check"></i>
+								Lorem ipsum dolor sit amet
+							</span>
+						</div>
+					</div>
+					<button class="bg-white text-[#4328EB] py-4 rounded-lg font-semibold">
+						Start Trial
+					</button>
+				</div>
+				<div
+					class="card-item flex flex-col gap-4 p-6 bg-[#4328EB] text-white rounded-lg w-full md:max-w-xl lg:max-w-sm">
+					<div class="title">
+						<p class="font-medium text-lg">Business</p>
+						<p>Perfect for small businesses</p>
+					</div>
+					<div class="price text-3xl">
+						<p>$500<span>/mo</span></p>
+					</div>
+					<div class="flex flex-col gap-2">
+						<span class="flex gap-2 items-center">
+							<i class="fa-solid fa-check"></i>
+							Lorem ipsum dolor sit amet
+						</span>
+						<span class="flex gap-2 items-center">
+							<i class="fa-solid fa-check"></i>
+							Lorem ipsum dolor sit amet
+						</span>
+						<span class="flex gap-2 items-center">
+							<i class="fa-solid fa-check"></i>
+							Lorem ipsum dolor sit amet
+						</span>
+						<span class="flex gap-2 items-center">
+							<i class="fa-solid fa-check"></i>
+							Lorem ipsum dolor sit amet
+						</span>
+						<span class="flex gap-2 items-center">
+							<i class="fa-solid fa-check"></i>
+							Lorem ipsum dolor sit amet
+						</span>
+					</div>
+					<button class="bg-white text-[#4328EB] py-4 rounded-lg font-semibold">
+						Get Started
+					</button>
+				</div>
+				<div
+					class="card-item flex flex-col gap-4 p-6 bg-[#F5F4FF] rounded-lg w-full md:max-w-xl lg:max-w-sm">
+					<div class="title">
+						<p class="text-[#4328EB] font-medium text-lg">Enterprise</p>
+						<p class="text-[#36485C]">Perfect for big companies</p>
+					</div>
+					<div class="price text-3xl">
+						<p>Custom</p>
+					</div>
+					<div class="flex flex-col gap-2 text-[#36485C]">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+							eiusmod tempor incididunt ut labore.
+						</p>
+						<p>
+							Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+							aut fugit. Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit.
+						</p>
+					</div>
+					<button class="bg-white text-[#4328EB] py-4 rounded-lg font-semibold">
+						Contact Us
+					</button>
+				</div>
+			</div>
+		</section>
+		<!-- End Plan -->
+
+		<!-- CTA -->
+		<section class="max-w-7xl pb-20 px-5 m-auto">
+			<!-- <div
+				class=""></div> -->
+			<div
+				class="flex flex-col bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-10 gap-6 rounded-lg text-white items-center text-center md:py-20">
+				<h1 class="text-3xl font-medium md:text-5xl">
+					Monitor your website like a pro
+				</h1>
+				<p>
+					Join over 800+ happy site owners boosting productivity and efficiency!
+				</p>
+				<div class="flex flex-col gap-5 md:flex-row">
+					<button class="px-8 py-4 bg-white text-pink-500 rounded-lg">
+						Try for free
+					</button>
+					<button class="flex items-center gap-4 group">
+						Contact Sales
+						<img
+							class="group-hover:translate-x-2 transition-all duration-300"
+							src="img/Arrow-white.svg"
+							alt="" />
+					</button>
+				</div>
+			</div>
+		</section>
+		<!-- End CTA -->
+
+		<!-- Footer -->
+		<footer class="max-w-7xl pb-10 px-5 m-auto">
+			<div class="flex flex-col gap-10">
+				<div class="md:flex justify-between items-start">
+					<a href="" class="flex gap-5 text-[#36485C] items-center">
+						<svg
+							width="40"
+							height="40"
+							viewBox="0 0 40 40"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								fill-rule="evenodd"
+								clip-rule="evenodd"
+								d="M10.9095 7.32128C11.272 6.69151 11.7764 6.15599 12.382 5.75798L16.6999 3.28372C17.8452 2.61823 18.7868 3.16423 18.7868 4.49523V18.4878C18.7868 19.8189 17.8452 20.3649 16.6999 19.6994L12.382 17.1398C11.7764 16.7418 11.272 16.2063 10.9095 15.5765C10.5471 14.9467 10.3367 14.2401 10.2952 13.5136V9.38412C10.3367 8.65761 10.5471 7.95105 10.9095 7.32128ZM9.91003 17.557C10.6126 17.557 11.3053 17.7207 11.9322 18.0347L16.1331 20.4171C17.2452 21.0535 17.2452 22.0897 16.1331 22.7261L4.43649 29.4165C3.32452 30.0529 2.41016 29.5307 2.41016 28.2579V23.4604C2.45043 22.7657 2.65477 22.09 3.00669 21.4878C3.35867 20.8855 3.84839 20.3735 4.43649 19.9929L7.88783 18.0347C8.51475 17.7207 9.20748 17.557 9.91003 17.557ZM27.6177 5.75798C28.2234 6.15599 28.7277 6.69151 29.0901 7.32128C29.4526 7.95105 29.6631 8.65761 29.7045 9.38412V13.5136C29.6631 14.2401 29.4526 14.9467 29.0901 15.5765C28.7277 16.2063 28.2234 16.7418 27.6177 17.1398L23.2913 19.6994C22.1461 20.3649 21.2129 19.8189 21.2129 18.4878V4.49523C21.2129 3.16423 22.1461 2.61823 23.2913 3.28372L27.6177 5.75798ZM29.7814 17.557C29.0491 17.557 28.3272 17.7207 27.6738 18.0347L23.2953 20.4171C22.1363 21.0535 22.1363 22.0897 23.2953 22.7261L35.4862 29.4165C36.6452 30.0529 37.5895 29.5307 37.5895 28.2579V23.4604C37.5492 22.7663 37.3378 22.0908 36.9725 21.4885C36.6072 20.8862 36.0981 20.3739 35.4862 19.9929L31.889 18.0347C31.2356 17.7207 30.5136 17.557 29.7814 17.557ZM9.87411 35.8827C10.5014 36.1963 11.1945 36.3597 11.8974 36.3597C12.6004 36.3597 13.2935 36.1963 13.9208 35.8827L17.3741 33.919C17.9617 33.5367 18.4503 33.0236 18.801 32.4208C19.1517 31.818 19.3545 31.1423 19.3933 30.448V25.6569C19.3933 24.3858 18.4867 23.8643 17.3741 24.4999L5.67078 31.1813C4.55815 31.8168 4.55815 32.8516 5.67078 33.4872L9.87411 35.8827ZM20.6178 32.4193C20.2526 31.8184 20.041 31.1445 19.9999 30.4519V25.6559C19.9999 24.3857 20.9443 23.8646 22.1033 24.4997L34.2942 31.1766C35.4531 31.8117 35.4531 32.8459 34.2942 33.481L29.9157 35.883C29.2623 36.1965 28.5403 36.3597 27.8081 36.3597C27.0759 36.3597 26.3539 36.1965 25.7005 35.883L22.1033 33.9125C21.4919 33.5317 20.9832 33.0204 20.6178 32.4193Z"
+								fill="#36485C" />
+						</svg>
+						<h1 class="text-2xl font-bold">GROWTHIN</h1>
+					</a>
+					<div
+						class="flex flex-col gap-5 py-6 md:flex-row md:justify-between md:w-2/3 md:py-0 md:items-start">
+						<div class="text-[#36485C]">
+							<div
+								id="accordion-footer"
+								class="header flex font-semibold items-center pb-2 justify-between">
+								Features
+								<button class="p-2 md:hidden">
+									<i class="fa-solid fa-chevron-down"></i>
+								</button>
+							</div>
+							<div class="hidden md:block">
+								<div class="flex flex-col gap-4">
+									<a href="">Growth</a>
+									<a href="">Sales</a>
+									<a href="">Chat</a>
+								</div>
+							</div>
+						</div>
+						<div class="text-[#36485C]">
+							<div
+								id="accordion-footer"
+								class="header flex font-semibold items-center pb-2 justify-between">
+								Pricing
+								<button class="p-2 md:hidden">
+									<i class="fa-solid fa-chevron-down"></i>
+								</button>
+							</div>
+							<div class="hidden md:block">
+								<div class="flex flex-col gap-4">
+									<a href="">Free Trial</a>
+									<a href="">Standard</a>
+									<a href="">Business</a>
+								</div>
+							</div>
+						</div>
+						<div class="text-[#36485C]">
+							<div
+								id="accordion-footer"
+								class="header flex font-semibold items-center pb-2 justify-between">
+								Enterprise
+								<button class="p-2 md:hidden">
+									<i class="fa-solid fa-chevron-down"></i>
+								</button>
+							</div>
+							<div class="hidden md:block">
+								<div class="flex flex-col gap-4">
+									<a href="">Personalize</a>
+									<a href="">Automation</a>
+									<a href="">Invoicing</a>
+									<a href="">24/7 Support</a>
+								</div>
+							</div>
+						</div>
+						<div class="text-[#36485C]">
+							<div
+								id="accordion-footer"
+								class="header flex font-semibold items-center pb-2 justify-between">
+								Careers
+								<button class="p-2 md:hidden">
+									<i class="fa-solid fa-chevron-down"></i>
+								</button>
+							</div>
+							<div class="hidden md:block">
+								<div class="flex flex-col gap-4">
+									<a href="">Open Positions</a>
+									<a href="">Part-Time</a>
+									<a href="">Contractual</a>
+									<a href="">Contact Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div
+					class="flex flex-col gap-10 items-center text-[#5F7896] md:flex-row md:justify-center">
+					<p>
+						© Copyright 2024.
+						<a class="underline" href="https://github.com/hibnastiar27"
+							>Code with aria</a
+						>
+						& Design With
+						<a class="underline" href="https://www.figma.com/@triciadesigns"
+							>Tricia Designs</a
+						>
+					</p>
+					<div class="flex gap-10">
+						<a href="">
+							<svg
+								width="20"
+								height="20"
+								viewBox="0 0 20 20"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M11.2343 8.85148L16.5082 2.5H15.2584L10.6791 8.0149L7.02168 2.5H2.80322L8.33403 10.8395L2.80322 17.5H4.05303L8.88888 11.6761L12.7514 17.5H16.9699L11.234 8.85148H11.2343ZM9.52253 10.913L8.96215 10.0825L4.50335 3.47476H6.42298L10.0213 8.80746L10.5817 9.63788L15.259 16.5696H13.3394L9.52253 10.9133V10.913Z"
+									fill="#5F7896" />
+							</svg>
+						</a>
+
+						<a href="">
+							<svg
+								width="21"
+								height="20"
+								viewBox="0 0 21 20"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M19.8641 10.0335C19.8641 4.95232 15.76 0.833172 10.6974 0.833172C5.63482 0.833172 1.53076 4.95232 1.53076 10.0335C1.53076 14.3483 4.49031 17.9687 8.48298 18.963V12.845H6.59274V10.0335H8.48298V8.82206C8.48298 5.69056 9.89494 4.23911 12.9581 4.23911C13.5388 4.23911 14.5409 4.35338 14.9508 4.46768V7.01633C14.7344 6.99347 14.3587 6.98203 13.8918 6.98203C12.3887 6.98203 11.808 7.55348 11.808 9.03923V10.0335H14.8021L14.2878 12.845H11.808V19.1665C16.3468 18.6163 19.8641 14.7374 19.8641 10.0335Z"
+									fill="#5F7896" />
+							</svg>
+						</a>
+
+						<a href="">
+							<svg
+								width="21"
+								height="20"
+								viewBox="0 0 21 20"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M3.19727 3.33333C3.19727 2.8731 3.57036 2.5 4.0306 2.5C7.78783 2.5 11.3912 3.99256 14.0479 6.64932C16.7047 9.30609 18.1973 12.9094 18.1973 16.6667C18.1973 17.1269 17.8242 17.5 17.3639 17.5C16.9037 17.5 16.5306 17.1269 16.5306 16.6667C16.5306 13.3515 15.2136 10.172 12.8694 7.82783C10.5252 5.48363 7.34581 4.16667 4.0306 4.16667C3.57036 4.16667 3.19727 3.79357 3.19727 3.33333ZM3.19727 9.16667C3.19727 8.70643 3.57036 8.33333 4.0306 8.33333C6.24074 8.33333 8.36035 9.21131 9.92316 10.7741C11.486 12.3369 12.3639 14.4565 12.3639 16.6667C12.3639 17.1269 11.9908 17.5 11.5306 17.5C11.0704 17.5 10.6973 17.1269 10.6973 16.6667C10.6973 14.8986 9.99489 13.2029 8.74464 11.9526C7.4944 10.7024 5.79871 10 4.0306 10C3.57036 10 3.19727 9.6269 3.19727 9.16667ZM4.86393 14.1667C3.94346 14.1667 3.19727 14.9129 3.19727 15.8333C3.19727 16.7538 3.94346 17.5 4.86393 17.5C5.78441 17.5 6.5306 16.7538 6.5306 15.8333C6.5306 14.9129 5.78441 14.1667 4.86393 14.1667Z"
+									fill="#5F7896" />
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- End Footer -->
+
+		<script src="js/script.js"></script>
+	</body>
+</html>
