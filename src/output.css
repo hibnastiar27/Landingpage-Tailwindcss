@@ -653,6 +653,14 @@ video {
   max-width: 80rem;
 }
 
+.max-w-screen-2xl {
+  max-width: 1536px;
+}
+
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
 .basis-1\/2 {
   flex-basis: 50%;
 }
